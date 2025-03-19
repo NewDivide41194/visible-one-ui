@@ -1,8 +1,7 @@
 import { JSX } from "react";
 
-import MountainImg from "../assets/images/mountain.jpeg";
+import MountainImg from "../../assets/images/mountain.jpeg";
 import HeaderNews from "./headerNews";
-import "../styles/header.css";
 
 const Header = (): JSX.Element => {
     return (

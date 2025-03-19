@@ -32,7 +32,7 @@ const trendingData = [
         title: "Title 1",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.",
         time: "3 hours ago",
-        imageURL: require("../assets/images/trending_1.jpg")
+        imageURL: require("../../assets/images/trending_1.jpg")
 
     },
     {
@@ -40,7 +40,7 @@ const trendingData = [
         title: "Title 2",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.",
         time: "3 hours ago",
-        imageURL: require("../assets/images/trending_2.jpeg")
+        imageURL: require("../../assets/images/trending_2.jpeg")
 
     },
     {
@@ -48,7 +48,7 @@ const trendingData = [
         title: "Title 3",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.",
         time: "3 hours ago",
-        imageURL: require("../assets/images/trending_3.jpg")
+        imageURL: require("../../assets/images/trending_3.jpg")
 
     },
 ]

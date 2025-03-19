@@ -8,9 +8,9 @@ const HomePage = (): JSX.Element => {
             <Header />
             <div className="container my-4">
                 <TrendingCards />
-                <HappeningNowCards/>
+                <HappeningNowCards />
             </div>
-            <Footer/>
+            <Footer />
         </div>
     )
 }
