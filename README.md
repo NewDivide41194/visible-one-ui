@@ -2,6 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Libraries
+- react-router-dom
+- Bootstrap 5.3.3
+- FontAwesome 6.7.2
+- react-pro-sidebar
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -30,6 +36,7 @@ Your app is ready to be deployed!
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### `npm run eject`
+
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
