@@ -6,7 +6,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - react-router-dom
 - Bootstrap 5.3.3
 - FontAwesome 6.7.2
-- react-pro-sidebar
 
 ## Available Scripts
 
