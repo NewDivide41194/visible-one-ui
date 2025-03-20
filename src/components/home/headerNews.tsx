@@ -21,8 +21,9 @@ const HeaderNews = (): JSX.Element => {
                                 <span className="fw-bold color-pink">{item.title}</span>
                                 <span className="fw-bold">{item.subTitle}</span>
                                 <span>{item.description}</span>
-                                <span className="text-muted">{item.time}</span>
-
+                                <span className="text-muted">
+                                    <i className="fa fa-clock me-2" />{item.time}
+                                </span>
                             </div>
                         )
                     }

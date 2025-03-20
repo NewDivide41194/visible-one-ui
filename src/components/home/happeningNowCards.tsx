@@ -25,8 +25,8 @@ const HappeningNowCards = (): JSX.Element => {
                             <img src={item.imageURL} className="card-img-top trending-card-img" alt="..." />
                             <div className="card-body">
                                 <p className="card-title fw-bold" key={item.id}>{item.title}</p>
-                                <span>
-                                    {item.time}
+                                <span className="text-muted">
+                                    <i className="fa fa-clock me-2"/>{item.time}
                                 </span>
                             </div>
                         </div>

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import "../../styles/navbar.css"
 
 const Navbar = () => {
   return (
@@ -15,6 +16,7 @@ const Navbar = () => {
           }
           )
         }
+        <i className="fa fa-user-circle fa-xl user-profile" />
       </div>
 
     </nav>

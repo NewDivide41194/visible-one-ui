@@ -5,18 +5,18 @@ const TrendingCards = () => {
             <div className="d-flex flex-row flex-wrap">
                 {trendingData.map((item) => (
                     <div className="d-flex flex-column col-12 col-md-6 col-lg-4 p-3">
-                    <div className="card bg-light shadow-lg">
-                        <img src={item.imageURL} className="card-img-top trending-card-img" alt="trending-images" />
-                        <div className="card-body">
-                            <p className="card-title fw-bold" key={item.id}>{item.title}</p>
-                            <p>
-                                {item.description}
-                            </p>
-                            <span>
-                                {item.time}
-                            </span>
+                        <div className="card bg-light shadow-lg">
+                            <img src={item.imageURL} className="card-img-top trending-card-img" alt="trending-images" />
+                            <div className="card-body">
+                                <p className="card-title fw-bold" key={item.id}>{item.title}</p>
+                                <p>
+                                    {item.description}
+                                </p>
+                                <span className="text-muted">
+                                    <i className="fa fa-clock me-2" />{item.time}
+                                </span>
+                            </div>
                         </div>
-                    </div>
                     </div>
                 ))}
             </div>
